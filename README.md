@@ -1,4 +1,4 @@
-Cours IFT-1004 ULAVAL QRCode Validation Mobile App
+IFT-1004 ULAVAL QRCode Validation Mobile App
 ====
 
 First make sure you have both [Node](https://nodejs.org/en/) and [NPM](https://www.npmjs.com/) installed on your computer.
