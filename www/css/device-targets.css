@@ -1,0 +1,76 @@
+@media screen and (min-device-height: 480px) {
+ .height-block { height: 20px;}
+}
+@media screen and (min-device-height: 534px) {
+	.height-block { height: 30px;}
+}
+@media screen and (min-device-height: 568px) {
+	.height-block { height: 60px;}
+}
+@media screen and (min-device-height: 592px) {
+	.height-block { height: 80px;}
+}
+@media screen and (min-device-height: 640px) {
+	.height-block { height: 180px;}
+}
+
+/*iPhone4*/
+@media screen and (max-device-width: 320px){
+  /* some CSS here */
+	.header h1 {
+	  font-size: 35px;
+	}
+
+	.header h4 {
+	  font-family: "Helvetica Neue","Helvetica",Helvetica,Arial,sans-serif;
+	  font-size: 13px;
+	}
+}
+
+/*iPhone 6*/
+@media screen and (max-device-width: 375px){
+	.header h1 {
+	  font-size: 45px;
+	}
+
+	.header h4 {
+	  font-family: "Helvetica Neue","Helvetica",Helvetica,Arial,sans-serif;
+	  font-size: 13px;
+	}
+}
+
+/*iPhone 6+*/
+@media screen and (max-device-width: 414px){
+	.header h1 {
+	  font-size: 50px;
+	}
+
+	.header h4 {
+	  font-family: "Helvetica Neue","Helvetica",Helvetica,Arial,sans-serif;
+	  font-size: 16px;
+	}
+}
+
+/*Other*/
+@media screen and (max-device-width: 360px){
+	.header h1 {
+	  font-size: 40px;
+	}
+
+	.header h4 {
+	  font-family: "Helvetica Neue","Helvetica",Helvetica,Arial,sans-serif;
+	  font-size: 13px;
+	}
+}
+
+/*Nexus4*/
+@media screen and (min-device-width: 384px){
+	.header h1 {
+	  font-size: 45px;
+	}
+
+	.header h4 {
+	  font-family: "Helvetica Neue","Helvetica",Helvetica,Arial,sans-serif;
+	  font-size: 13px;
+	}
+}

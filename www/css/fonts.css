@@ -1,0 +1,10 @@
+@font-face {
+    font-family: 'Segoe';
+    src: url('fonts/SEGOEUIL.ttf');
+    letter-spacing: -3px;
+}
+
+@font-face {
+    font-family: "Open Sans"; 
+    src: local('OpenSans-Bold'), url('fonts/OpenSans-Bold.ttf') format("truetype");
+}

@@ -1,0 +1,81 @@
+
+<!DOCTYPE html>
+<html>
+  <head>
+      <meta charset="utf-8" />
+      <meta name="format-detection" content="telephone=no" />
+      <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width, height=device-height, target-densitydpi=medium-dpi" />
+      <link rel="stylesheet" type="text/css" href="css/foundation.min.css" />
+      <link rel="stylesheet" type="text/css" href="css/animate.min.css" />
+      <link rel="stylesheet" type="text/css" href="css/font-awesome.css" />
+      <link rel="stylesheet" type="text/css" href="css/nprogress.css" />
+      <link rel="stylesheet" type="text/css" href="css/demo-styles.css" />
+      <link rel="stylesheet" type="text/css" href="css/overlay.css" />
+      <link rel="stylesheet" type="text/css" href="css/device-targets.css" />
+      <script src="js/vendor/custom.modernizr.js"></script>
+      <script src="js/vendor/webfont.js"></script>
+      <script>
+        WebFont.load({
+          custom: {
+            families: ['Segoe','Open Sans'],
+            urls: ['css/fonts.css']
+          }
+        });
+      </script>
+      <script type="text/javascript" src="cordova.js"></script>
+      <script type="text/javascript" src="js/vendor/modernizr.custom.js"></script>
+      <script type="text/javascript" src="js/vendor/jquery.js"></script>
+      <script type="text/javascript" src="js/vendor/foundation.min.js"></script>
+      <script type="text/javascript" src="js/vendor/jquery.backstretch.js"></script>
+      <script type="text/javascript" src="js/vendor/classie.js"></script>
+      <script type="text/javascript" src="js/vendor/overlay.js"></script>
+      <script type="text/javascript" src="js/nprogress.js"></script>
+      <script type="text/javascript" src="js/jquery.hammer.min.js"></script>
+      <script type="text/javascript" src="js/app.js"></script>
+      <script type="text/javascript" src="js/students_scan.js"></script>
+      <title>IFT-100 QRCode</title>
+      <!--[if gte IE 9]>
+        <style type="text/css">
+          .gradient {
+             filter: none;
+          }
+        </style>
+      <![endif]-->
+  </head>
+  <body class="checkpoint-header">
+      <div class="fixed-header">
+          <div class="row">
+              <div class="small-12 columns">
+              </div>
+          </div> 
+      </div>
+      <div class="header">
+          <div class="row demo-grids">
+              <div class="small-12 columns">
+                  <h1 id="demo-header">IFT-<span>1004</span></h1>
+                  <h4 id="demo-info">Demo de validation de QRCode</h4>
+                </div>
+          </div> 
+      </div>
+
+      <div class="foot-menu gradient">
+        <div class="row">
+            <div class="small-4 columns"><a href="#" id="scanRegistrationNumber"><i class="fa fa-qrcode"></i>QR Code</a></div>
+            <div class="small-4 columns"><a href="#" id="enterRegistrationNumber"><i class="fa fa-user"></i>Matricule</a></div>
+            <div class="small-4 columns"><a href="#" id="trigger-overlay"><i class="fa fa-exclamation-circle"></i>A Propos</a></div>
+        </div>
+      </div>
+
+      <div class="overlay overlay-hugeinc">
+        <button type="button" class="overlay-close">Fermer</button>
+        <div class="row">
+          <div class="small-12 columns">
+             <h3>IFT-1004 QRCode</h3>
+             <p>Démo de validation de QRCode conçue dans le cadre du cours d'introduction à la programmation IFT-1004 de l'université Laval.</p>
+
+             <p>Built with 😍 by <a href="https://github.com/mercuryseries" class="underline"> Honoré Hounwanou</a>.</p>
+          </div>
+        </div>
+      </div>
+  </body>
+</html>

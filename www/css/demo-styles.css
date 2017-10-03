@@ -1,0 +1,383 @@
+*,body {
+    -webkit-touch-callout:none;                /* prevent callout to copy image, etc when tap to hold */
+    -webkit-text-size-adjust:none;             /* prevent webkit from resizing text to fit */
+    -webkit-tap-highlight-color:rgba(0,0,0,0); /* prevent tap highlight color / shadow */
+    -webkit-user-select:none;                  /* prevent copy paste, to allow, change 'none' to 'text' */
+    -webkit-user-select: none; /* Chrome/Safari */
+    -moz-user-select: none; /* Firefox */
+    -ms-user-select: none; /* IE10+ */
+    -o-user-select: none;
+    user-select: none;
+}
+
+body {
+  background: #282b2f url("../img/bo_play_pattern.png");
+}
+
+#backButton, #backButton2{
+  margin: 0;
+  margin-top: 9px;
+  background-color: transparent;
+  white-space: nowrap;
+}
+
+.loaded{
+  display: block;
+}
+
+.home-content {
+  padding-top: 20px;
+  display: block;
+}
+
+.header {
+  padding:10px 10px 20px 10px;
+  color: white;
+  margin-bottom: 10px;
+  display: block;
+  top: 35%;
+  position: fixed;
+}
+
+.header-shadow {
+  -webkit-box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.5);
+  border-bottom: 1px solid rgba(0, 0, 0, 0.4);
+}
+
+a.button {
+  font-family: "Open Sans",Arial;
+  letter-spacing: -1px;
+}
+
+a.button.primary {
+  color: #FFF;
+  cursor: pointer;
+  background: #C9302C;
+  border: 2px solid #F9FBFE;
+  text-shadow: 0 1px 0 rgb(0, 0, 0);
+  border-radius: 3px;
+  font-weight: bold;
+  text-align: center;
+  font-size: 20px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+a.button.secondary {
+  background-image: -webkit-linear-gradient(#f9f9f9, #f9f9f9 38%, #dedede);
+  border: 1px solid rgba(0, 0, 0, 0.25);
+  box-shadow: 0 1px 0 rgba(0, 0, 0, 0.3), inset 0 1px 2px rgba(255, 255, 255, 0.75);
+  color: #444;
+  text-shadow: 0 1px 0 rgb(240, 240, 240);
+}
+
+a.button.secondary:active,a.button.light-blue:active{
+  background-image: -webkit-linear-gradient(#e7e7e7, #e7e7e7 38%, #d7d7d7);
+   -webkit-box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.4);
+}
+
+a.button.light-blue {
+  background-image: -webkit-linear-gradient(#f9f9f9, #f9f9f9 38%, #d6ebf9);
+  border: 1px solid rgba(0, 0, 0, 0.25);
+  box-shadow: 0 1px 0 rgba(0, 0, 0, 0.3), inset 0 1px 2px rgba(255, 255, 255, 0.75);
+  color: #444;
+  text-shadow: 0 1px 0 rgb(240, 240, 240);
+}
+
+a.button.orange:active {
+  background-image: -webkit-linear-gradient(#f3891c, #f3891c 38%, #f48400);
+   -webkit-box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.4);
+}
+
+a.button.orange {
+  background: #e27b00;
+  background-image: -webkit-linear-gradient(#f39d36, #f39d36 38%, #e27b00);
+  border: 1px solid rgba(0, 0, 0, 0.25);
+  box-shadow: 0 1px 0 rgba(0, 0, 0, 0.3), inset 0 1px 2px rgba(255, 255, 255, 0.75);
+  color: #272727;
+  text-shadow: 0 1px 0 rgba(240, 240, 240,0.6);
+}
+
+a.button.purple:active {
+  background-image: -webkit-linear-gradient(#d02156, #d02156 38%, #af1a47);
+   -webkit-box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.4);
+}
+
+a.button.purple {
+  background-image: -webkit-linear-gradient(#C9302C, #C9302C 38%, #c72052);
+  border: 1px solid rgba(0, 0, 0, 0.25);
+  box-shadow: 0 1px 0 rgba(0, 0, 0, 0.3), inset 0 1px 2px rgba(255, 255, 255, 0.75);
+  color: #fff;
+  text-shadow: 0 1px 0 rgba(0, 0, 0,0.7);
+}
+
+.demo-bottom-border {
+  border-bottom: 1px solid #eee;
+}
+
+.demo-top-border {
+  border-top: 1px solid #eee;
+}
+
+.demo-left-border {
+  border-left: 1px solid #eee;
+}
+
+.demo-right-border {
+  border-right: 1px solid #eee;
+}
+
+.demo-grids a.button.large i{
+ font-size: 2.5em;
+ padding-left: 20px;
+}
+
+h1,h2,h3,h4,h5 {
+  text-rendering:auto;
+  font-family: "Open Sans","Helvetica Neue","Helvetica",Helvetica,Arial,sans-serif;
+}
+
+.header h1 {
+  font-size: 45px;
+  color: white;
+  padding: 0;
+  margin: 0;
+  margin-bottom: 5px;
+  letter-spacing: -3px;
+  text-shadow: 0 1px 1px rgba(0, 0, 0,0.9);
+}
+
+.header h1 span {
+  color: #009ce2;
+}
+
+.header h4 {
+  font-family: "Helvetica Neue","Helvetica",Helvetica,Arial,sans-serif;
+  font-weight: 600;
+  text-transform: uppercase;
+  color: white;
+  padding: 0;
+  font-size: 13px;
+}
+
+.demo-green {
+  background-color: #24a622;
+}
+
+.demo-red {
+  background-color: #e20707;
+}
+
+.demo-purple {
+  background-color: #C9302C;
+  -webkit-box-shadow: 0px 2px 20px rgba(0, 0, 0, 0.3);
+  box-shadow: 0px 2px 20px rgba(0, 0, 0, 0.3);
+  color: #fff;
+}
+
+.demo-grey {
+  background-color: #303131;
+  color: #c0c5c5;
+}
+
+.midnight-blue {
+  background-color: #2C3E50;
+  color: white;
+}
+
+.wet-asphalt {
+  background-color: #34495E;
+  color: white;
+}
+
+.pomegranate {
+  background-color: #C0392B;
+  color: white;
+}
+
+#app-status-ul {
+  color: #fff;
+}
+.demo-dark {
+  background-color: #626262;
+  color: white;
+}
+
+h3.light-header {
+  font-size: 18px;
+  font-family: "Open Sans",Arial;
+  font-weight: 400;
+  color: #fff;
+  display: block;
+  margin-top: 4px;
+  text-shadow: 0 1px 1px rgba(0, 0, 0,0.6);
+  letter-spacing: -1px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  width: 100%;
+  white-space: nowrap;
+  text-overflow:ellipsis;
+  overflow: hidden;
+}
+
+h3.light-header small {
+  color: #f3f2f5;
+  text-shadow: none;
+
+}
+
+.header-padd {
+  margin-top:10px;
+}
+
+.fixed-margin {
+  margin-top:58px;
+}
+
+.fixed-margin2 {
+  margin-top:180px;
+}
+
+ul#infolist{
+  padding:0;
+  margin: 0 -15px;
+  margin-bottom: 100px;
+}
+
+ul#infolist li {
+  list-style: none;
+  border-bottom: 1px solid #e0e0e0;
+}
+
+#infolist a {
+  display: block;
+  padding:15px;
+}
+
+#infolist a:active {
+  background: #0370f4;
+  color: #fff;
+}
+
+#infolist a:active * {
+  color: #fff;
+}
+
+#demo-notice.demo-green {
+  border-top: 4px solid #166a15;
+}
+
+#demo-notice.demo-red {
+  border-top: 4px solid #cc1f1f;
+}
+
+#demo-notice {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 0;
+  padding:15px;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  height: 100%;
+  display: none;
+  z-index: 99999999;
+  text-align: center;
+  font-family: "Arial", "Helvetica";
+  color: #fff;
+}
+
+#demo-notice p {
+  font-weight: 200;
+  font-size: 18px;
+  color: #f5f3f6;
+}
+
+#demo-notice h3 {
+  text-shadow: 0 1px 5px rgba(0, 0, 0,0.4);
+  font-weight: 800;
+  font-size: 20px;
+  font-family: "Arial", "Helvetica";
+  color: #fff;
+  padding-top: 25px;
+}
+
+#demo-notice h3 i {
+  font-size: 80px;
+  display: block;
+}
+
+.fixed-header {
+   position: fixed;
+  top: 0;
+  left:0;
+    width: 100%;
+    z-index: 100;
+}
+
+.fixed-header .row {
+  width: 100%;
+  display: block;
+}
+
+.demo-subtle {
+  background: #549fc7;
+}
+
+.demo-dark-flat {
+  background: #323232;
+}
+
+.foot-menu {
+  color: #FFF;
+  cursor: pointer;
+  border-top: #009cf5 2px solid;
+  background: #009ce2; /* Old browsers */
+  background: -moz-linear-gradient(top,  #009ce2 0%, #007cd4 70%, #007cd4 100%); /* FF3.6+ */
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#009ce2), color-stop(70%,#007cd4), color-stop(100%,#007cd4)); /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(top,  #009ce2 0%,#007cd4 70%,#007cd4 100%); /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(top,  #009ce2 0%,#007cd4 70%,#007cd4 100%); /* Opera 11.10+ */
+  background: -ms-linear-gradient(top,  #009ce2 0%,#007cd4 70%,#007cd4 100%); /* IE10+ */
+  background: linear-gradient(to bottom,  #009ce2 0%,#007cd4 70%,#007cd4 100%); /* W3C */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#009ce2', endColorstr='#007cd4',GradientType=0 ); /* IE6-8 */
+
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  left: 0;
+  height: 66px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);*/
+}
+
+.foot-menu .columns, .checkin-foot-menu .colums {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.foot-menu a i {
+  font-size: 35px;
+  display: block;
+  text-shadow: 0 1px 1px rgba(0, 0, 0,0.4);
+}
+
+.foot-menu a {
+  display: block;
+  padding: 10px;
+  font-size: 12px;
+  text-align: center;
+  border-right: 1px solid #009cf5;
+  color: #fff;
+
+}
+
+.foot-menu .columns:last-child a {
+  border-right: none;
+}
+
+.foot-menu a:active {
+  background: #008ce4;
+}
