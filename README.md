@@ -7,7 +7,7 @@ First make sure you have both [Node](https://nodejs.org/en/) and [NPM](https://w
 Signup for a LICENSE KEY on [https://www.scandit.com/](https://www.scandit.com/) and then replace the placeholder "LICENSE_KEY" in line 9 of the ```www/js/students_scan.js``` file by your license key.
 
 # Server URL
-Update if needed the server IP address and port in ```www/js/app.js``` on line 1.
+Update if necessary the server IP address and port in ```www/js/app.js``` on line 1.
 
 # Install Cordova
 ```sudo npm install -g cordova```
