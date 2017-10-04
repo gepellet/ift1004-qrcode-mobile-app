@@ -18,10 +18,9 @@ function scanRegistrationNumber() {
 }
 
 function success_scan(session) {
-  studentRegistrationNumber = "";
   studentRegistrationNumber = session.newlyRecognizedCodes[0].data;
   session.stopScanning();
-  processEvent();
+  initiateStudentLookup();
 }
 
 function failed_scan(error) {
@@ -31,7 +30,7 @@ function failed_scan(error) {
 }
 
 // get student details from API
-function processEvent(){
+function initiateStudentLookup(){
   var apiUrl = getRootUrl() + "/api/v1/students";
   var params = { registration_number: studentRegistrationNumber };
   var jqxhr = $.get(apiUrl,params, function(data) {
@@ -49,7 +48,7 @@ function processEvent(){
 function onPrompt(results) {
   if (results.buttonIndex == 1) {
     studentRegistrationNumber = results.input1;
-    processEvent();
+    initiateStudentLookup();
   };
   history.back();
 }
